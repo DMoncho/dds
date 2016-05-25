@@ -11,6 +11,14 @@
 |
 */
 
+/*Route::get('/', function () {
+    return view('welcome');
+});
+
+Route::auth();
+
+Route::get('/home', 'HomeController@index');*/
+
 Route::group(['Midelware'=>['web']],function(){
     Route::get('/', function () {
         return view('welcome');
@@ -25,5 +33,3 @@ Route::get('/partidos', 'PartidosController@index');
 
 Route::get('/futbol', 'PartidosController@baloncesto');
 Route::get('/baloncesto', 'PartidosController@furbol');
-
-

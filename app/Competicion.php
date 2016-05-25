@@ -1,17 +1,17 @@
 <?php
 
-namespace App\models;
+namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Partido extends Model
+class Competicion extends Model
 {
     /**
      * The database table used by the model.
      *
      * @var string
      */
-    protected $table = 'partido';
+    protected $table = 'competicion';
 
     /**
      * The attributes that are mass assignable.
@@ -20,6 +20,6 @@ class Partido extends Model
      */
 
     protected $fillable = [
-        'id_competicion', 'equipo_1', 'equipo_2',
+        'id','nombre','id_deporte'
     ];
 }

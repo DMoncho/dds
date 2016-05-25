@@ -1,34 +1,34 @@
 @extends('layouts.app')
 
 @section('content')
-{{--<div class="container">
-    <div class="row">
-        <div class="col-md-10 col-md-offset-1">
-            <div class="panel panel-default">
-                <div class="panel-heading">Welcome</div>
+    {{--<div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Welcome</div>
 
-                <div class="panel-body">
-                   <a href="/futbol">Futbol</a>
-                    <a href="/baloncesto">Baloncesto</a>
+                    <div class="panel-body">
+                       <a href="/futbol">Futbol</a>
+                        <a href="/baloncesto">Baloncesto</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>--}}
+    </div>--}}
 
-<section id="slider" class="slider-parallax swiper_wrapper full-screen force-full-screen clearfix">
+    <section id="slider" class="slider-parallax swiper_wrapper full-screen force-full-screen clearfix">
 
-    <div class="slider-parallax-inner">
+        <div class="slider-parallax-inner">
 
-        <div class="swiper-container swiper-parent">
-           <div class="swiper-wrapper">
-               <a href="/partidos"><div class="swiper-slide dark" style="background-image: url('images/slider/swiper/fondo2.jpg');">
-                    <div class="container clearfix">
-                        <div class="slider-caption slider-caption-center">
-                            <h2 data-caption-animate="fadeInUp">APUESTA YA</h2>
-                            <p data-caption-animate="fadeInUp" data-caption-delay="200">Todas las apuestas de tus deportes favoritos a un solo click. A que esperas!.</p>
-                        </div>
-                    </div></a>
+            <div class="swiper-container swiper-parent">
+                <div class="swiper-wrapper">
+                    <a href="/partidos"><div class="swiper-slide dark" style="background-image: url('images/slider/swiper/fondo2.jpg');">
+                            <div class="container clearfix">
+                                <div class="slider-caption slider-caption-center">
+                                    <h2 data-caption-animate="fadeInUp">APUESTA YA</h2>
+                                    <p data-caption-animate="fadeInUp" data-caption-delay="200">Todas las apuestas de tus deportes favoritos a un solo click. A que esperas!.</p>
+                                </div>
+                            </div></a>
                 </div>
 
                 {{--<div class="swiper-slide dark">
@@ -60,7 +60,7 @@
             <div id="slide-number"><div id="slide-number-current"></div><span>/</span><div id="slide-number-total"></div></div>
         </div>
 --}}
-    </div>
+            </div>
 
-</section>
+    </section>
 @endsection

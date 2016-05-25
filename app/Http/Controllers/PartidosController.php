@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\models\Competicion;
-use App\models\Deporte;
-use App\models\Partido;
+use App\Competicion;
+use App\Deporte;
+use App\Partido;
 use App\Services\FactoryBasketball;
 use App\Services\FactoryFootball;
 use App\Services\FootballGame;
